@@ -11,7 +11,7 @@
 <body>
     <div class="width-full h-full">
         @include('layouts.header')
-        <main class="w-full h-200">
+        <main class="w-full">
             @yield('appContents')
         </main>
         @include('layouts.footer')

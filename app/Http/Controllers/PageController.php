@@ -20,7 +20,7 @@ class PageController extends Controller
         return view('history');
     }
 
-    public function details()
+    public function awards()
     {
         return view('awards');
     }

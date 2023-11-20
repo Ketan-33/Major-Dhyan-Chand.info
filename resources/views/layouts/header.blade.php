@@ -1,4 +1,4 @@
-<header class="bg-black bg-cover bg-center sticky top-0 w-full p-4">
+<header class="bg-gray-800 bg-cover bg-center sticky top-0 w-full p-4 z-10">
     <nav class="container mx-auto flex items-center justify-between flex-wrap">
         <div class="flex-shrink-0">
             <img src="/images/logo1.png" alt="Logo" class="w-full h-20 transition-transform transform hover:scale-110">

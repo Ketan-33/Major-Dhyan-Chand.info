@@ -11,6 +11,6 @@
 
     <!-- Copyright -->
     <div class="text-center mt-4">
-        &copy; 2023 Major Dhyan Chand Official Website. All rights reserved.
+        &copy; 2023 Major Dhyan Chand UnOfficial Website. All rights reserved.
     </div>
 </footer>

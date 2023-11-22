@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('appContents')
-    <div class="body bg-gray-300 min-h-screen p-4">
-        <div class="content w-full max-w-screen-xl mx-auto">
+    <div class="relative p-4 bg-cover bg-center bg-fixed" style="background-image: url('images/bg.jpg');">
+        <div class="relative z-10 content w-full max-w-screen-xl mx-auto mt-32 backdrop-blur-md">
             <div class="text-center mb-8">
-                <h2 class="text-3xl font-bold">Major Dhyan Chand's Awards</h2>
+                <h2 class="text-4xl font-bold">Major Dhyan Chand's Awards</h2>
                 <p>Explore the remarkable achievements and honors of the legendary field hockey player.</p>
             </div>
 
@@ -13,7 +13,7 @@
                 <div class="bg-white rounded-lg overflow-hidden shadow-md text-center flex flex-col items-center justify-center p-4 transition-transform transform hover:scale-110">
                     <img src="images/award1.jpeg" alt="Award 1" class="w-80 h-80 object-cover rounded-lg">
                     <div class="p-4">
-                        <h3 class="text-xl font-semibold mb-2">Olympic Gold Medal 1928</h3>
+                        <h3 class="text-3xl font-semibold mb-2">Olympic Gold Medal 1928</h3>
                         <p>Major Dhyan Chand won his first Olympic gold medal in Amsterdam in 1928. This prestigious award marked the beginning of his illustrious career and showcased his exceptional skills on the field.</p>
                     </div>
                 </div>
@@ -48,5 +48,6 @@
                 <!-- Add more awards as needed -->
             </div>
         </div>
+        <div class="absolute inset-0 bg-white opacity-40"></div>
     </div>
 @endsection

@@ -45,7 +45,6 @@
                     </div>
                 </div>
 
-                <!-- Add more awards as needed -->
             </div>
         </div>
         <div class="absolute inset-0 bg-white opacity-40"></div>

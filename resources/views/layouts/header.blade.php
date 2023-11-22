@@ -1,7 +1,7 @@
 <header class="bg-black bg-cover bg-center fixed top-0 w-full p-4 z-20 bg-opacity-100">
     <nav class="container mx-auto flex items-center justify-between flex-wrap">
         <div class="flex-shrink-0">
-            <img src="/images/logo1.png" alt="Logo" class="w-full h-20 transition-transform transform hover:scale-110">
+            <img src="/images/logo1.png" alt="Logo" class="w-full h-20 transition-transform transform hover:scale-125">
         </div>
         <ul class="flex space-x-4 ml-auto flex-wrap">
             <li><a href="/" class="hover:text-amber-400 hover:underline text-white text-lg md:text-2xl">Home</a></li>

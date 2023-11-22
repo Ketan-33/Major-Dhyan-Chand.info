@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('appContents')
-    <div class="body bg-gray-300 min-h-screen bg-cover bg-center  flex flex-col" style="background-image: url('images/bg.jpg');">
+    <div class="body bg-gray-300 min-h-screen bg-cover bg-center  flex flex-col relative" style="background-image: url('images/bg.jpg');">
         <div class="overlay absolute inset-0 bg-white opacity-40 "></div>
         <div class="content flex-1 w-full max-w-screen-xl mx-auto mt-32 relative backdrop-blur">
 
@@ -44,7 +44,6 @@
     </div>
 </div>
 
-            <!-- Row of Small Images -->
             <div class="flex items-center justify-center space-x-4 pb-4">
                 <img src="{{ asset('images/image1.jpg') }}" alt="Image 1" class="w-20 h-20 object-cover rounded-md">
                 <img src="{{ asset('images/image2.jpg') }}" alt="Image 2" class="w-20 h-20 object-cover rounded-md">
@@ -52,7 +51,6 @@
                 <img src="{{ asset('images/image4.jpg') }}" alt="Image 4" class="w-20 h-20 object-cover rounded-md">
                 <img src="{{ asset('images/image5.jpg') }}" alt="Image 5" class="w-20 h-20 object-cover rounded-md">
                 <img src="{{ asset('images/image6.jpg') }}" alt="Image 6" class="w-20 h-20 object-cover rounded-md">
-                <!-- Add more images as needed -->
             </div>
 
         </div>

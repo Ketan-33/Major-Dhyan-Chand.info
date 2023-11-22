@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="bg-gray-800 text-white p-8">
+<footer class="bg-gray-800 text-white p-8 z-20">
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
         <!-- Logo -->
         <div class="mb-4 md:mb-0">

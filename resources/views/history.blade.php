@@ -67,4 +67,10 @@
 
         </div>
     </div>
+    <style>
+        .history{
+            color: #fbbf24;
+            text-decoration: underline #fbbf24;
+        }
+        </style>
 @endsection

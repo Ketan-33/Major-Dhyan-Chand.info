@@ -55,4 +55,10 @@
 
         </div>
     </div>
+    <style>
+        .about{
+            color: #fbbf24;
+            text-decoration: underline #fbbf24;
+        }
+        </style>
 @endsection

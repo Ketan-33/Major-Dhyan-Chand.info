@@ -49,4 +49,10 @@
         </div>
         <div class="absolute inset-0 bg-white opacity-40"></div>
     </div>
+    <style>
+        .awards{
+            color: #fbbf24;
+            text-decoration: underline #fbbf24;
+        }
+        </style>
 @endsection
